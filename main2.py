@@ -7,7 +7,7 @@ print (i)
 print (type (i))
 f = 0
 for e in i:
-	f = f + e
+	f += e
 print (f)
 if f > 100:
 	print ('в яблочко')
