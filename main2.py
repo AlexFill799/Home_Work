@@ -5,7 +5,7 @@ i.append (int (input ('введите второе число')))
 i.append (int (input ('введите третье число')))
 print (i)
 print (type (i))
-f = (0)
+f = 0
 for e in i:
 	f = f + e
 print (f)
